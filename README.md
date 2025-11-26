@@ -87,7 +87,7 @@ To run the full SAGE-KG pipeline on a folder of Markdown files, use the command-
 ### Command
 
 ```bash
-python run_sagekg.py \
+python Agents.py \
     --data-folder data \
     --model qwen2.5:14b \
     --output-json triplets.json \
@@ -134,7 +134,7 @@ SAGE-KG/
   data/
     doc1.md
     doc2.md
-  run_sagekg.py
+  Agents.py
   triplets.json
   triplets.txt
 ```

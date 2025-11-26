@@ -4,7 +4,6 @@ import re
 import os
 import glob
 import unicodedata
-import time
 from dataclasses import dataclass
 from typing import List, Dict, Tuple, Optional
 from tqdm import tqdm
@@ -12,7 +11,7 @@ from charset_normalizer import detect
 from llama_index.core.node_parser import SentenceSplitter
 from crewai import Agent, Task, Crew, Process
 from langchain_community.chat_models import ChatOllama
-import sys
+
 
 @dataclass
 class Triple:
