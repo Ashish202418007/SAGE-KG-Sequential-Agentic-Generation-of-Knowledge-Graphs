@@ -71,7 +71,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Ashish202418007/SAGE-KG-Sequential-Agentic-Generation-of-Knowledge-Graphs.git
-cd SAGE-KG
+cd SAGE-KG-Sequential-Agentic-Generation-of-Knowledge-Graphs
 ```
 
 Install dependencies:
